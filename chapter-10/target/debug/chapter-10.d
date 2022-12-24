@@ -1,0 +1,1 @@
+/home/mateus/Desktop/Projetos/rust-stuff/chapter-10/target/debug/chapter-10: /home/mateus/Desktop/Projetos/rust-stuff/chapter-10/src/aggregator.rs /home/mateus/Desktop/Projetos/rust-stuff/chapter-10/src/main.rs
