@@ -41,10 +41,10 @@
 //     largest
 // }
 
-mod aggregator;
-use aggregator::{Summary, Tweet, NewsArticle, notify};
+// mod aggregator;
+// use aggregator::{Summary, Tweet, NewsArticle, notify};
 
-fn main() {
+// fn main() {
     // let number_list = vec!['a', 'b'];
 
     // let result = largest(&number_list);
@@ -65,26 +65,58 @@ fn main() {
 
     // println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
 
-    let tweet = Tweet {
-        username: String::from("horse_ebooks"),
-        content: String::from("of course, as you probrably already know people"),
-        reply: false,
-        retweet: false,
-    };
+    // let tweet = Tweet {
+    //     username: String::from("horse_ebooks"),
+    //     content: String::from("of course, as you probrably already know people"),
+    //     reply: false,
+    //     retweet: false,
+    // };
 
-    println!("1 new tweet: {}", tweet.summarize());
+    // println!("1 new tweet: {}", tweet.summarize());
 
-    let article = NewsArticle {
-        headline: String::from("Penguins win the Stanley Cup Championship!"),
-        location: String::from("Pittsburgh, PA, USA"),
-        author: String::from("Iceburgh"),
-        content: String::from("The Pittsburgh Penguins once again are the best hockey team in the NHL."),
-    };
+    // let article = NewsArticle {
+    //     headline: String::from("Penguins win the Stanley Cup Championship!"),
+    //     location: String::from("Pittsburgh, PA, USA"),
+    //     author: String::from("Iceburgh"),
+    //     content: String::from("The Pittsburgh Penguins once again are the best hockey team in the NHL."),
+    // };
 
+    // // println!("New article available! {}", article.summarize());
+
+    // notify(&article);
     // println!("New article available! {}", article.summarize());
 
-    notify(&article);
-    println!("New article available! {}", article.summarize());
 
+// }
 
+// fn main() {
+//     let r;
+
+//     {
+//         let x = 5;
+//         r = &x;
+//     }
+
+//     println!("r: {}", r);
+// }
+
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() {
+        x
+    }
+    else {
+        y
+    }
+}
+
+// &i32
+// &'a i32
+// &'a mut i32
+
+fn main() {
+    let string1 = String::from("abcd");
+    let string2 = "xyz";
+
+    let result = longest(string1.as_str(), string2);
+    println!("The longest string is {}", result);
 }
