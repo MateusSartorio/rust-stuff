@@ -1,1 +1,1 @@
-/home/mateus/Desktop/Projetos/rust-stuff/chapter-10/target/debug/chapter-10: /home/mateus/Desktop/Projetos/rust-stuff/chapter-10/src/lib.rs /home/mateus/Desktop/Projetos/rust-stuff/chapter-10/src/main.rs
+/home/manoel/Desktop/Projetos/rust-stuff/chapter-10/target/debug/chapter-10: /home/manoel/Desktop/Projetos/rust-stuff/chapter-10/src/lib.rs /home/manoel/Desktop/Projetos/rust-stuff/chapter-10/src/main.rs
