@@ -1,4 +1,4 @@
-use art::{mix, PrimaryColor};
+use art_mateus_sartorio::{mix, PrimaryColor};
 
 fn main() {
     let red = PrimaryColor::Red;
