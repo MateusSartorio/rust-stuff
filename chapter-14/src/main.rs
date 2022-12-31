@@ -1,3 +1,6 @@
+mod lib;
+use lib::add_one;
+
 fn main() {
-    println!("Hello, world!");
+    add_one(2);
 }
